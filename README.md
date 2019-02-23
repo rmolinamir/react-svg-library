@@ -1,4 +1,4 @@
-# react-svg-library
+# React Plug-N'-Go Scalable Vector Graphics (SVG) icons library
 
 > 
 
