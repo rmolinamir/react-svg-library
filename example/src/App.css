@@ -1,0 +1,132 @@
+body{
+  margin: 0;
+}
+
+.App{
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  min-height: 100vh;
+  width: 100%;
+  margin: 0 auto;
+  padding: 64px 0;
+  transition: all ease 200ms;
+  overflow: hidden;
+}
+
+.App hr {
+  width: 90%;
+}
+
+.App h1:first-of-type {
+  margin-top: 12px !important;
+}
+
+.App svg {
+  font-size: 2.5em;
+}
+
+.DarkTheme {
+  color: #484848;
+  background: rgb(255, 255, 255);
+}
+
+.LightTheme {
+  color: #FFF;
+  background: rgb(16, 10, 52);
+}
+
+.ThemeHandler {
+  position: fixed;
+  left: 24px;
+  top: 24px;
+}
+
+.Button {
+  text-transform: uppercase;
+  color: #333;
+  background: #fff;
+  border-color: #333;
+  position: relative;
+  outline: none;
+  cursor: pointer;
+  font: inherit;
+  width: fit-content;
+  user-select: none;
+  border: 1px solid;
+  line-height: 1.5;
+  border-radius: .25rem;
+  font-weight: bold;
+  width: 100px;
+  padding: 10px 17px;
+  padding: var(--spacing-button-vertical,10px) var(--spacing-button-horizontal,17px);
+  box-shadow: 2px 2px 5px 1px #666;
+  transition: background-color .1s ease-in-out,border-color .15s ease-in-out,box-shadow .15s ease-in-out,opacity .15s;
+}
+
+.Tooltip {
+  background-color: rgb(40, 43, 46) !important;
+  color: #FFF !important;
+  fill: #FFF !important;
+}
+
+.App h1 {
+  text-shadow: 1px 1px 3px rgb(72, 72, 72);
+  text-transform: uppercase;
+}
+
+.Title {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 0 auto;
+  font-size: 1.5em;
+}
+
+.Title h1 {
+  font-size: 1.75em;
+  padding: 0 12px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.Underline {
+  width: 100% !important;
+  height: 100% !important;
+}
+
+.Icons {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  justify-content: space-evenly;
+  align-items: center;
+  flex-flow: row;
+}
+
+.Example {
+  position: relative;
+}
+
+.Example, .Icon {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.Code {
+  color: inherit;
+  font-weight: bold;
+  text-transform: uppercase;
+  font-size: 14px;
+}
+
+.Description {
+  margin: 24px auto 0;
+  font-size: 18px;
+  max-width: 90%;
+  text-align: center;
+}
