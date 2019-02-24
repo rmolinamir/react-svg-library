@@ -120,8 +120,8 @@ body{
 .Code {
   color: inherit;
   font-weight: bold;
-  text-transform: uppercase;
-  font-size: 14px;
+  text-transform: lowercase;
+  font-size: 16px;
 }
 
 .Description {

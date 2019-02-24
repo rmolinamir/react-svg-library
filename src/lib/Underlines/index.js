@@ -28,6 +28,8 @@ const Underline = (props) => {
       style={{
         width: '100%',
         height: 'auto',
+        display: 'inline-flex',
+        justifyContent: 'center',
         ...props.style
       }}>
       {getRandomUnderline(underlinesObj)({ className: props.className, color: props.color ? props.color : randomColor })}

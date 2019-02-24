@@ -1,6 +1,6 @@
 {
-  "name": "lazy-component-test-example",
-  "homepage": "https://rmolinamir.github.io/lazy-component-test",
+  "name": "example",
+  "homepage": "https://rmolinamir.github.io/react-svg-library",
   "version": "0.0.0",
   "license": "MIT",
   "private": true,
@@ -9,7 +9,7 @@
     "react": "file:../node_modules/react",
     "react-dom": "file:../node_modules/react-dom",
     "react-scripts": "^2.1.5",
-    "lazy-component-test": "file:.."
+    "react-svg-library": "file:.."
   },
   "scripts": {
     "start": "react-scripts start",

@@ -2,7 +2,7 @@ import React, { useState } from 'react'
 // CSS
 import './App.css'
 // JSX
-import { Underline, Icon } from 'lazy-component-test'
+import { Underline, Icon } from 'react-svg-library'
 import Tooltip from 'react-png-tooltip'
 import SyntaxHighlighter from 'react-syntax-highlighter'
 import { obsidian as syntaxStyle } from 'react-syntax-highlighter/dist/esm/styles/hljs'
@@ -91,7 +91,7 @@ const example = () => {
   }
 
   const examples = Object.keys(examplesObj).map(key => {
-    const icons = examplesObj[key].map(example => {
+    const icons = examplesObj[key].map((example, index) => {
       /**
        * If the example is an array, then it means props are being used and has to be rendered differently.
        */
@@ -117,7 +117,7 @@ const example = () => {
         )
       }
       return (
-        <div key={example} className='Example'>
+        <div key={index} className='Example'>
           <Tooltip
             className='Tooltip'
             tooltip={
@@ -139,7 +139,7 @@ const example = () => {
         </div>
         {key === 'Rating'
           ? <p className='Description'>
-            The rating SVG icons are a bit different, they have what is known as <strong>clipPath</strong> tags, which allows the developer to partially fill the SVG paths like shown in the examples. And yes, you can control this, hover over the icons to check the examples!
+            The rating SVG icons are a bit different, they have what is known as <strong>clipPath</strong> tags, which allows the developer to partially fill the SVG paths like shown in the examples. And yes, you can control this, hover over the icons to check the code!
           </p>
           : null}
       </React.Fragment>
@@ -153,25 +153,33 @@ const example = () => {
       </div>
       <div className='Title'>
         <div style={{ maxWidth: '600px' }}>
-          <h1>React Plug-N'-Go SVG Icons Library</h1>
+          <h1>React Plug-N'-Go SVG Library</h1>
           <Underline className='Underline' />
         </div>
         <br />
         <div className='Description'>
-          <span style={{ marginRight: '1ch' }}>You can hover over the underlines, the icon to the right, and any of the other SVG icons to see code examples,</span>
+          <span style={{ marginRight: '1ch' }}>You can hover over the underlines at the bottom, the icon to the right, and any of the other SVG icons to see code examples,</span>
           <Tooltip
             className='Tooltip'>
             <SyntaxHighlighter language='javascript' style={syntaxStyle}>{`<Underline className='Underline' />`}</SyntaxHighlighter>
           </Tooltip>
           <span style={{ marginLeft: '1ch' }}> - try it out!</span>
           <p>The underlines are also SVG icons that are included in this library pack, they're randomly generated - you may refresh the page to check this feature out.</p>
-          <p><strong>You may also change the theme of the website by clicking the top-left button.</strong></p>
+          <p><strong>You may also change the theme of this page by clicking the top-left button.</strong></p>
           <p><strong>PRO-TIP:</strong> Click the icons to keep the tooltips open.</p>
         </div>
       </div>
       <hr />
       <br />
       {examples}
+      <h1 style={{margin: '92px 0 36px'}}>Underlines</h1>
+      <div className='Icons'>
+        {[1, 2, 3, 4, 5].map(underline => {
+          return (
+            <Underline key={underline} />
+          )
+        })}
+      </div>
     </div>
   )
 }

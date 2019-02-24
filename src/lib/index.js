@@ -58,7 +58,7 @@ const Icon = (props) => {
       return null
     }
     return (
-      <Suspense fallback={<i />}>
+      <Suspense fallback={<g />}>
         <LazyComponent
           {...svgProps} />
       </Suspense>
@@ -70,8 +70,8 @@ const Icon = (props) => {
   return (
     <svg
       fill={props.fill ? props.fill : 'currentColor'}
-      stroke={props.fill ? props.stroke : 'currentColor'}
-      strokeWidth={props.fill ? props.strokeWidth : '0'}
+      stroke={props.stroke ? props.stroke : 'currentColor'}
+      strokeWidth={props.strokeWidth ? props.strokeWidth : '0'}
       className={className}
       style={{ color: props.color, ...props.style }}
       viewBox='0 0 100 100'
@@ -91,8 +91,11 @@ Icon.propTypes = {
   children: propTypes.element,
   style: propTypes.object,
   fill: propTypes.string,
-  stroke: propTypes.number,
-  strokeWidth: propTypes.string,
+  stroke: propTypes.oneOfType([
+    propTypes.string,
+    propTypes.number
+  ]),
+  strokeWidth: propTypes.number,
   icon: propTypes.string.isRequired,
   /**
    * Custom props for SVG icons with clipPaths, animations or gradient colors.

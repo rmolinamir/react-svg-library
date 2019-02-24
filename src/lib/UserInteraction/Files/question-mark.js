@@ -11,7 +11,7 @@ const icon = (props) => {
 }
 
 icon.propTypes = {
-  fill: propTypes.fill
+  fill: propTypes.string
 }
 
 export default icon

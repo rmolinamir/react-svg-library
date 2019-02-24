@@ -10,13 +10,12 @@ const icon = (props) => {
         </clipPath>
       </defs>
       <rect x='0' y='0' fill='rgb(217,217,217)' width='100%' height='100%' clipPath='url(#priceRatingPath)' />
-      <rect x='0' y='0%' fill={props.fill} width={props.clipPathFill ? `${props.clipPathFill * 100}%` : '100%'} height='100%' clipPath='url(#priceRatingPath)' />
+      <rect x='0' y='0%' width={props.clipPathFill ? `${props.clipPathFill * 100}%` : '100%'} height='100%' clipPath='url(#priceRatingPath)' />
     </g>
   )
 }
 
 icon.propTypes = {
-  fill: propTypes.string,
   clipPathFill: propTypes.number
 }
 
