@@ -84,6 +84,10 @@ class Example extends Component {
 
 ### [Check out the showcase for more advanced examples.](https://z3o46jyr34.codesandbox.io/ "Hosted on CodeSandbox")
 
+## How to contribute?
+
+You may add more icons by submitting pull requests, or creating issues with the SVG you'd like to see included. I will credit everyone who contributes.
+
 ## License
 
 MIT © [rmolinamir](https://github.com/rmolinamir)
