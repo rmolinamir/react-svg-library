@@ -235,8 +235,8 @@ const example = () => {
             <div style={{textAlign: 'left'}}>
               A combination of:
               <ul>
-                <li><a style={{ color: 'inherit' }} href='https://www.npmjs.com/package/react-png-tooltip' target='_blank' rel="noopener noreferrer">React PNG Tooltip</a></li>
-                <li><a style={{ color: 'inherit' }} href='https://www.npmjs.com/package/react-syntax-highlighter' target='_blank' rel="noopener noreferrer">React Syntax Highlighter</a></li>
+                <li><a style={{ color: 'inherit' }} href='https://www.npmjs.com/package/react-png-tooltip' target='_blank' rel='noopener noreferrer'>React PNG Tooltip</a></li>
+                <li><a style={{ color: 'inherit' }} href='https://www.npmjs.com/package/react-syntax-highlighter' target='_blank' rel='noopener noreferrer'>React Syntax Highlighter</a></li>
               </ul>
               <SyntaxHighlighter language='javascript' style={syntaxStyle}>{`<Tooltip>
   <SyntaxHighlighter 
