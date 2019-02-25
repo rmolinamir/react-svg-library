@@ -30,7 +30,7 @@ Props                   |         Functionality
 `icon`                  |         You may decide which icon to import by using this prop, all of the icons are showcased in the library with their respective names below the icons.
 `gradient`              |         Some icons have gradient fills (like the `calendar-gradient`) SVG icon, it is an array of two values, [`startingColor`, `finalColor`], check the showcase `calendar-gradient` for an example.
 `animationFill`         |         The loading SVG animations have different paths that can be filled with different colors, you may check the showcase **Loading Animations** section for examples. 
-`clipPathFill`          |         The SVG images in the **Rating** section have what are known as `clipPaths`, [more info here about clipPaths](https://developer.mozilla.org/en-US/docs/Web/SVG/Element/clipPath). The clipping path restricts the region to which paint can be applied, meaning the SVG image can be partially filled with color. You may check the examples on the showcase for more information.
+`clipPathFill`          |         The SVG images in the **Rating** section have what are known as `clipPaths`, [more info here about clipPaths](https://developer.mozilla.org/en-US/docs/Web/SVG/Element/clipPath). The clipping path restricts the region to which paint can be applied, meaning the SVG image can be partially filled with color. You may check the examples in the showcase for more information.
 
 ### Underlines
 
