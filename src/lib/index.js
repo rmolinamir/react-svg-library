@@ -71,9 +71,9 @@ const Icon = (props) => {
     <svg
       fill={props.fill ? props.fill : 'currentColor'}
       stroke={props.stroke ? props.stroke : 'currentColor'}
-      strokeWidth={props.strokeWidth ? props.strokeWidth : '0'}
+      strokeWidth={props.strokeWidth ? props.strokeWidth : 0}
       className={className}
-      style={{ color: props.color, ...props.style }}
+      style={{ ...props.style }}
       viewBox='0 0 100 100'
       preserveAspectRatio='none'
       height={svgSize}
@@ -87,8 +87,6 @@ const Icon = (props) => {
 Icon.propTypes = {
   className: propTypes.any,
   size: propTypes.string,
-  color: propTypes.string,
-  children: propTypes.element,
   style: propTypes.object,
   fill: propTypes.string,
   stroke: propTypes.oneOfType([

@@ -1,7 +1,7 @@
 {
   "name": "react-svg-library",
-  "version": "0.9.0",
-  "description": "React Plug-N'-Go Scalable Vector Graphics (SVG) icons library.",
+  "version": "1.0.0",
+  "description": "React Scalable Vector Graphics (SVG) icons library.",
   "author": "rmolinamir",
   "license": "MIT",
   "repository": "rmolinamir/react-svg-library",

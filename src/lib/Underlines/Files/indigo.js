@@ -42,7 +42,7 @@ const indigo = (props) => {
               <path d='' id='e1PoA2F7t0' fill='none' stroke='white' filter='url(#shadow7530976)' />
             </g>
             <g>
-              <use xlinkHref='#a2zN5jEn3Y' opacity='1' floodColor='0' stroke={props.color ? props.color : '#3F00FF'} strokeWidth='3' strokeOpacity='1' />
+              <use xlinkHref='#a2zN5jEn3Y' opacity='1' floodColor='0' stroke={props.color ? props.color : '#5f79c4'} strokeWidth='3' strokeOpacity='1' />
             </g>
           </g>
           <g>
@@ -60,7 +60,7 @@ const indigo = (props) => {
               <path d='' id='amGcG7iEd' fill='none' stroke='white' filter='url(#shadow8641298)' />
             </g>
             <g>
-              <use xlinkHref='#adTh5VYD4' opacity='1' floodColor='0' stroke={props.color ? props.color : '#3F00FF'} strokeWidth='4' strokeOpacity='1' />
+              <use xlinkHref='#adTh5VYD4' opacity='1' floodColor='0' stroke={props.color ? props.color : '#5f79c4'} strokeWidth='4' strokeOpacity='1' />
             </g>
           </g>
           <g>
@@ -78,7 +78,7 @@ const indigo = (props) => {
               <path d='M201.68 7.98C111.08 10.58 46.52 8.75 8 2.5' id='c1VPZqw2yK' fill='none' stroke='white' filter='url(#shadow10649307)' />
             </g>
             <g>
-              <use xlinkHref='#e22MqLEBeS' opacity='1' floodColor='0' stroke='#5f79c4' strokeWidth='3' strokeOpacity='1' />
+              <use xlinkHref='#e22MqLEBeS' opacity='1' floodColor='0' stroke={props.color ? props.color : '#5f79c4'} strokeWidth='3' strokeOpacity='1' />
             </g>
           </g>
           <g>
@@ -96,12 +96,12 @@ const indigo = (props) => {
               <path d='' id='ajWoKafxC' fill='none' stroke='white' filter='url(#shadow10830854)' />
             </g>
             <g>
-              <use xlinkHref='#d1gXrdbiCy' opacity='1' floodColor='0' stroke='#5f79c4' strokeWidth='3' strokeOpacity='1' />
+              <use xlinkHref='#d1gXrdbiCy' opacity='1' floodColor='0' stroke={props.color ? props.color : '#5f79c4'} strokeWidth='3' strokeOpacity='1' />
             </g>
           </g>
           <g>
             <g>
-              <use xlinkHref='#gDBLOo3rG' opacity='1' floodColor='0' stroke='#5f79c4' strokeWidth='3' strokeOpacity='1' />
+              <use xlinkHref='#gDBLOo3rG' opacity='1' floodColor='0' stroke={props.color ? props.color : '#5f79c4'} strokeWidth='3' strokeOpacity='1' />
             </g>
           </g>
           <g>
@@ -119,7 +119,7 @@ const indigo = (props) => {
               <path d='M186.69 18.03C166.58 15.65 116.19 14.46 35.52 14.46' id='c1HttSrkJS' fill='none' stroke='white' filter='url(#shadow10649664)' />
             </g>
             <g>
-              <use xlinkHref='#d2hjthTykG' opacity='1' floodColor='0' stroke='#5f79c4' strokeWidth='3' strokeOpacity='1' />
+              <use xlinkHref='#d2hjthTykG' opacity='1' floodColor='0' stroke={props.color ? props.color : '#5f79c4'} strokeWidth='3' strokeOpacity='1' />
             </g>
           </g>
           <g>
@@ -137,7 +137,7 @@ const indigo = (props) => {
               <path d='' id='adPq55VDe' fill='none' stroke='white' filter='url(#shadow8915263)' />
             </g>
             <g>
-              <use xlinkHref='#a1C3Tl4z88' opacity='1' floodColor='0' stroke={props.color ? props.color : '#3F00FF'} strokeWidth='4' strokeOpacity='1' />
+              <use xlinkHref='#a1C3Tl4z88' opacity='1' floodColor='0' stroke={props.color ? props.color : '#5f79c4'} strokeWidth='4' strokeOpacity='1' />
             </g>
           </g>
         </g>
