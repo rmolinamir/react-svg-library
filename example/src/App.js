@@ -26,6 +26,7 @@ const examplesObj = {
   ],
   'General Icons': ['bed', 'delivery-truck', 'more-info', 'private', 'tools', 'under-construction', 'website'],
   'Image Upload': ['single-image', 'multi-image'],
+  'Interface': ['hide', 'show', 'verification-checkmark', 'warning-checkmark'],
   'Loading Animations': [
     ['loading-one', { size: '5em' }, `size='5em'`],
     ['loading-two', { size: '5em', animationFill: ['indigo', 'indianred', 'gold', 'lightblue'] },

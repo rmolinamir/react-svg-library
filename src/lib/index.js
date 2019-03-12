@@ -9,6 +9,7 @@ import Companies from './Companies'
 import Dates from './Dates'
 import General from './General'
 import ImageUpload from './ImageUpload'
+import Interface from './Interface'
 import LoadingAnimations from './LoadingAnimations'
 import MathRelated from './MathRelated'
 import Navigation from './Navigation'
@@ -27,6 +28,7 @@ const svgKeys = {
   ...Dates,
   ...General,
   ...ImageUpload,
+  ...Interface,
   ...LoadingAnimations,
   ...MathRelated,
   ...Navigation,
