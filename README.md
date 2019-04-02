@@ -42,7 +42,7 @@ Props                   |         Functionality
 `color`                 |         Colors for a **specific underline** will only be randomly generated **if the randomColor bool prop is passed as true**, otherwise the colors will fall back to the default color if an underline is specified or to a random color if the underline is also randomly generated. You may take a look at the showcase to see all of the default colors.
 `randomColor`           |         Needs to be passed to specific underlines to generate random colors, this prop has no effect on the color if the underline is not specified.
 
-## Showcase
+## [Showcase](https://www.robertmolina.dev/codelab/react-svg-library)
 
 [![Full showcase of all the icons and underlines available.](https://codesandbox.io/static/img/play-codesandbox.svg)](https://codesandbox.io/s/z3o46jyr34)
 
