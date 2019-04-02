@@ -1,6 +1,6 @@
 # React Plug-N'-Go Scalable Vector Graphics (SVG) icons library
 
-> A React Scalable Vector Graphics (SVG) icons library.
+> Scalable Vector Graphics (SVG) icons library for React.js
 
 [![NPM](https://img.shields.io/npm/v/react-svg-library.svg)](https://www.npmjs.com/package/react-svg-library) [![JavaScript Style Guide](https://img.shields.io/badge/code_style-standard-brightgreen.svg)](https://standardjs.com)
 
