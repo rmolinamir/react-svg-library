@@ -1,7 +1,7 @@
 {
   "name": "react-svg-library",
   "version": "1.2.0",
-  "description": "React Scalable Vector Graphics (SVG) icons library.",
+  "description": "Scalable Vector Graphics (SVG) icons library for React.js",
   "author": "rmolinamir",
   "license": "MIT",
   "repository": "rmolinamir/react-svg-library",
