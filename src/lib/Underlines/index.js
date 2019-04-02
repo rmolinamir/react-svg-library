@@ -34,6 +34,9 @@ const Underline = (props) => {
   }
 
   const Underline = () => {
+    /**
+     * If there is a specific underline.
+     */
     if (props.underline) {
       const Underline = underlinesObj[props.underline]
       if (!Underline) { // Prevents error crashing.
@@ -45,11 +48,10 @@ const Underline = (props) => {
        * is passed, otherwise fall back to the default color. The developer may pass a specific color
        * as well through the props.
        */
-      const color = { color: props.color ? props.color : (props.randomColor ? getRandomColor() : null) }
+      const color = { color: props.color ? props.color : (props.randomColor | props.pastelIndex) && getRandomColor(props.pastelIndex) }
       return getUnderline(props.underline)({ className: props.className, ...color })
-      // return null
     } else {
-      const color = { color: props.color ? props.color : getRandomColor() }
+      const color = { color: props.color ? props.color : getRandomColor(props.pastelIndex) }
       return getRandomUnderline()({ className: props.className, ...color })
     }
   }
@@ -72,6 +74,7 @@ Underline.propTypes = {
   className: propTypes.any,
   color: propTypes.string,
   // Enables random color generation on specific underlines.
+  pastelIndex: propTypes.pastelIndex,
   randomColor: propTypes.bool,
   style: propTypes.object,
   underline: propTypes.string
