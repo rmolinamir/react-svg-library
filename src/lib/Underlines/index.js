@@ -74,7 +74,7 @@ Underline.propTypes = {
   className: propTypes.any,
   color: propTypes.string,
   // Enables random color generation on specific underlines.
-  pastelIndex: propTypes.pastelIndex,
+  pastelIndex: propTypes.number,
   randomColor: propTypes.bool,
   style: propTypes.object,
   underline: propTypes.string
